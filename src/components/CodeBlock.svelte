@@ -27,5 +27,6 @@
 
   .window-content pre {
     margin: 0;
+    white-space: pre-wrap;
   }
 </style>

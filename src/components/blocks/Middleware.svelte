@@ -31,13 +31,8 @@ func main() {
 }`;
 </script>
 
-<section class="generic-block">
+<section class="generic-block reverse">
   <div class="mid">
-    <div class="left">
-      <CodeBlock>
-        {exampleCode}
-      </CodeBlock>
-    </div>
     <div class="right">
       <h3>Flexible Middleware Support</h3>
       <p>
@@ -46,6 +41,11 @@ func main() {
         to verify and manipulate certain requests in your app before they reach
         your controller.
       </p>
+    </div>
+    <div class="left">
+      <CodeBlock>
+        {exampleCode}
+      </CodeBlock>
     </div>
   </div>
 </section>

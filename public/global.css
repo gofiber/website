@@ -136,8 +136,42 @@ img {
   width: 45%;
 }
 
+.generic-block.reverse .mid {
+	flex-direction: row-reverse;
+}
+
 .generic-block h3 {
   margin: 0;
   padding: 0;
   font-size: 2.4em;
+}
+
+@media only screen and ( max-width: 1250px ) {
+	.mid {
+		width: 870px;
+	}
+}
+
+@media only screen and ( max-width: 920px ) {
+	.mid {
+		width: auto;
+		padding: 1em;
+	}
+
+	.generic-block .mid {
+		display: block;
+	}
+
+	.generic-block .mid .left,
+	.generic-block .mid .right {
+		width: auto;
+	}
+
+	.generic-block .mid .code-block {
+		margin-top: 2em;
+	}
+
+	.generic-block h3 {
+		font-size: 1.8em;
+	}
 }

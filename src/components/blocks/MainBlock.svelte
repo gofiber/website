@@ -100,4 +100,36 @@ func main() {
     margin-top: 1em;
     color: #777;
   }
+
+  @media only screen and ( max-width: 920px ) {
+    .main-block {
+      padding: 2em 1em;
+    }
+
+    .main-block .large-text {
+      font-size: 2em;
+      margin-bottom: 1em;
+    }
+
+    .main-block .description {
+      width: auto;
+    }
+
+    .main-example {
+      display: block;
+    }
+
+    .main-example .code-example-wrapper, .main-example .result {
+      width: auto;
+    }
+
+    .main-example .arrow-container {
+      padding: 1em 0;
+      text-align: center;
+    }
+
+    :global(.main-example .arrow-container svg) {
+      transform: rotate(90deg);
+    }
+  }
 </style>

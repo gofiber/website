@@ -29,4 +29,11 @@
   .generic-block .mid .left {
     text-align: right;
   }
+
+  @media only screen and ( max-width: 920px ) {
+    .generic-block .mid .left,
+    .generic-block .mid .right {
+      text-align: center;
+    }
+  }
 </style>

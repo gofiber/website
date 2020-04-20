@@ -20,13 +20,8 @@
 }))`;
 </script>
 
-<section class="generic-block faint">
+<section class="generic-block faint reverse">
   <div class="mid">
-    <div class="left">
-      <CodeBlock>
-        {exampleCode}
-      </CodeBlock>
-    </div>
     <div class="right">
       <h3>WebSocket Support</h3>
       <p>
@@ -34,6 +29,11 @@
         interactive user experiences with performance and scalability
         guaranteed.
       </p>
+    </div>
+    <div class="left">
+      <CodeBlock>
+        {exampleCode}
+      </CodeBlock>
     </div>
   </div>
 </section>

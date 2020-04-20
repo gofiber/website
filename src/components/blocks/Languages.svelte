@@ -52,6 +52,7 @@
 
   .flags img {
     margin-right: 5px;
+    margin-bottom: 5px;
     height: 20px;
   }
 

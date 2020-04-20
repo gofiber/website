@@ -11,13 +11,8 @@
 app.Static("/", "./files")`;
 </script>
 
-<section class="generic-block faint">
+<section class="generic-block reverse faint">
   <div class="mid">
-    <div class="left">
-      <CodeBlock>
-        {exampleCode}
-      </CodeBlock>
-    </div>
     <div class="right">
       <h3>Serve Static Files</h3>
       <p>
@@ -25,6 +20,11 @@ app.Static("/", "./files")`;
         defining static routes. You can also serve the contents of
         multiple directories on the same route!
       </p>
+    </div>
+    <div class="left">
+      <CodeBlock>
+        {exampleCode}
+      </CodeBlock>
     </div>
   </div>
 </section>
