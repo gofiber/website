@@ -36,12 +36,12 @@ img {
 
 .window {
 	background: #f4f4f4;
-	border-radius: 6px;
+	border-radius: 3px;
 	box-shadow: 0 6px 20px rgba(0,0,0,0.3);
 }
 
 .window.dark {
-	background: #111;
+	background: #183055;
 }
 
 .titlebar {

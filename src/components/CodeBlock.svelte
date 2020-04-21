@@ -19,9 +19,9 @@
 
 <style>
   pre code {
-    background: #111;
-    border-bottom-left-radius: 6px;
-    border-bottom-right-radius: 6px;
+    background: #183055;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
     line-height: 1.2;
   }
 
