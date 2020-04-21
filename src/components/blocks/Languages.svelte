@@ -18,7 +18,7 @@
 <section class="generic-block faint">
   <div class="mid">
     <center>
-      <h3>Translated in 11 languages</h3>
+      <h3>Translated To 11 Languages</h3>
       <div class="flags">
         {#each languages as language}
           <a
