@@ -1,13 +1,11 @@
 <script>
-  import CodeBlock from '../CodeBlock.svelte';
-  import BrowserWindow from '../BrowserWindow.svelte';
+  import CodeBlock from "../CodeBlock.svelte";
+  import BrowserWindow from "../BrowserWindow.svelte";
 
-  import Icon from 'fa-svelte';
-  import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+  import Icon from "fa-svelte";
+  import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
-  const exampleCode = `// server.go
-
-package main
+  const exampleCode = `package main
 
 import "github.com/gofiber/fiber"
 
@@ -21,46 +19,6 @@ func main() {
   app.Listen(3000)
 }`;
 </script>
-
-<section class="mid main-block">
-  <h2 class="large-text">An Express-inspired web framework written in Go.</h2>
-  <div class="description">
-    Fiber is a Go web framework built on top of Fasthttp, the <strong>fastest</strong>
-    HTTP engine for Go. It's designed to <strong>ease</strong> things up for fast
-    development with <strong>zero memory allocation</strong> and <strong>performance</strong>
-    in mind.
-  </div>
-</section>
-
-<section class="mid main-example">
-  <div class="code-example-wrapper">
-    <CodeBlock>
-      {exampleCode}
-    </CodeBlock>
-  </div>
-
-  <div class="arrow-container">
-    <Icon icon={faArrowRight} />
-  </div>
-
-  <div class="result">
-    <BrowserWindow>
-      <pre style="word-wrap: break-word; white-space: pre-wrap;">
-        Hello, World!
-      </pre>
-    </BrowserWindow>
-  </div>
-</section>
-
-<section class="emphasized-button">
-  <div class="mid">
-    <a href="https://docs.gofiber.io">
-      <span>Get Started</span>
-      <Icon icon={faArrowRight} />
-    </a>
-    <div class="or-scroll">...or scroll to learn more.</div>
-  </div>
-</section>
 
 <style>
   .main-block {
@@ -87,7 +45,8 @@ func main() {
     margin-bottom: 3em;
   }
 
-  .main-example .code-example-wrapper, .main-example .result {
+  .main-example .code-example-wrapper,
+  .main-example .result {
     width: 40%;
   }
 
@@ -101,7 +60,7 @@ func main() {
     color: #74818d;
   }
 
-  @media only screen and ( max-width: 920px ) {
+  @media only screen and (max-width: 920px) {
     .main-block {
       padding: 2em 1em;
     }
@@ -119,7 +78,8 @@ func main() {
       display: block;
     }
 
-    .main-example .code-example-wrapper, .main-example .result {
+    .main-example .code-example-wrapper,
+    .main-example .result {
       width: auto;
     }
 
@@ -133,3 +93,46 @@ func main() {
     }
   }
 </style>
+
+<section class="mid main-block">
+  <h2 class="large-text">An Express-inspired web framework written in Go.</h2>
+  <div class="description">
+    Fiber is a Go web framework built on top of Fasthttp, the
+    <strong>fastest</strong>
+    HTTP engine for Go. It's designed to
+    <strong>ease</strong>
+    things up for fast development with
+    <strong>zero memory allocation</strong>
+    and
+    <strong>performance</strong>
+    in mind.
+  </div>
+</section>
+
+<section class="mid main-example">
+  <div class="code-example-wrapper">
+    <CodeBlock>{exampleCode}</CodeBlock>
+  </div>
+
+  <div class="arrow-container">
+    <Icon icon={faArrowRight} />
+  </div>
+
+  <div class="result">
+    <BrowserWindow>
+      <pre style="word-wrap: break-word; white-space: pre-wrap;">
+        Hello, World!
+      </pre>
+    </BrowserWindow>
+  </div>
+</section>
+
+<section class="emphasized-button">
+  <div class="mid">
+    <a href="https://docs.gofiber.io">
+      <span>Get Started</span>
+      <Icon icon={faArrowRight} />
+    </a>
+    <div class="or-scroll">...or scroll to learn more.</div>
+  </div>
+</section>

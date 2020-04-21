@@ -172,8 +172,10 @@ code.hljs {
 .hljs-string, .hljs-bullet, .hljs-subst, .hljs-title, .hljs-section, .hljs-emphasis, .hljs-type, .hljs-built_in, .hljs-builtin-name, .hljs-selector-attr, .hljs-selector-pseudo, .hljs-addition, .hljs-variable, .hljs-template-tag, .hljs-template-variable {
   color: #71a7ff !important;
 }
-
-.hljs-number, .hljs-class, .hljs-symbol {
+.hljs-class {
+  color: #E6ECF1 !important;
+}
+.hljs-number, .hljs-symbol {
   color: #ff9d3d !important;
 }
 

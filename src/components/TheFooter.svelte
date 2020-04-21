@@ -9,7 +9,7 @@
     <a href="https://github.com/koddr" target="_blank">Vic Shóstak</a>
     and distributed under
     <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons</a>
-    license (CC BY-SA 4.0 International). Website by
+    license (CC BY-SA 4.0 International). Fiber Documentation is hosted by  <a href="https://gitbook.com" target="_blank">GitBook.com</a>. Website by
     <a href="https://github.com/jozsefsallai" target="_blank">József Sallai</a>.
   </div>
 </footer>

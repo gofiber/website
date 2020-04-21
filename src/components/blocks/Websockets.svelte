@@ -2,21 +2,20 @@
   import CodeBlock from '../CodeBlock.svelte';
 
   const exampleCode = `app.Get("/ws", websocket.New(func(c *websocket.Conn) {
-  fmt.Println(c.Locals("Hello")) // "World"
-  // Websocket logic...
+  // Websocket logic
   for {
-    mt, msg, err := c.ReadMessage()
+    mtype, msg, err := c.ReadMessage()
     if err != nil {
-      log.Println("read:", err)
       break
     }
-    log.Printf("recv: %s", msg)
-    err = c.WriteMessage(mt, msg)
+    log.Printf("Read: %s", msg)
+
+    err = c.WriteMessage(mtype, msg)
     if err != nil {
-      log.Println("write:", err)
       break
     }
   }
+  log.Println("Error:", err)
 }))`;
 </script>
 

@@ -1,8 +1,12 @@
 <script>
-  import CodeBlock from '../CodeBlock.svelte';
+  import CodeBlock from "../CodeBlock.svelte";
 
   const exampleCode = `app.Get("/", func (c *fiber.Ctx) {
   c.Send("GET request")
+})
+
+app.Get("/:param", func (c *fiber.Ctx) {
+  c.Send("GET request with param: ", c.Params("param"))
 })
 
 app.Post("/", func (c *fiber.Ctx) {
@@ -15,15 +19,12 @@ app.Post("/", func (c *fiber.Ctx) {
     <div class="left">
       <h3>Robust Routing</h3>
       <p>
-        Setting up routes for your application has never been so easy!
-        The Express-like route definitions are easy to understand and
-        work with.
+        Setting up routes for your application has never been so easy! The
+        Express-like route definitions are easy to understand and work with.
       </p>
     </div>
     <div class="right">
-      <CodeBlock>
-        {exampleCode}
-      </CodeBlock>
+      <CodeBlock>{exampleCode}</CodeBlock>
     </div>
   </div>
 </section>

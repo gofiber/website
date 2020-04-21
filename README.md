@@ -41,4 +41,6 @@ official website deploys to Netlify.
 
 ## License
 
+Landingpage by [József Sallai](https://github.com/jozsefsallai).
+
 MIT.
