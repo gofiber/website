@@ -12,6 +12,7 @@
 	import Websockets from './components/blocks/Websockets.svelte';
 	import Limiter from './components/blocks/Limiter.svelte';
 	import Languages from './components/blocks/Languages.svelte';
+	import MediaBlock from './components/blocks/MediaBlock.svelte';
 	import LastBlock from './components/blocks/LastBlock.svelte';
 </script>
 
@@ -27,5 +28,6 @@
 	<Websockets />
 	<Limiter />
 	<Languages />
+	<MediaBlock />
 	<LastBlock />
 </Layout>
