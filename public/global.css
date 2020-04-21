@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:500');
 
 :root {
-	--accent: #00acd7;
-	--accent-darker: #0089ac;
+	--accent: #183055;
+	--accent-darker: #142a4c;
 }
 
 html, body {
@@ -12,7 +13,7 @@ html, body {
 
 body {
 	margin: 0;
-	color: #333;
+	color: #242a31;
 	font: 16px / 1.6 'Roboto', "Segoe UI", Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 
@@ -149,6 +150,38 @@ img {
   padding: 0;
   font-size: 2.4em;
 }
+
+/* Code syntax */
+
+code.hljs {
+  font-size: 14px;
+  color: #E6ECF1;
+  font-weight: 500 !important;
+  font-family: "Source Code Pro", Consolas, Menlo, Monaco, Courier, monospace !important;
+}
+
+.hljs-title {
+  font-weight: inherit !important;
+}
+
+.hljs-keyword {
+  color: #61e3a5 !important;
+  font-weight: inherit !important;
+}
+
+.hljs-string, .hljs-bullet, .hljs-subst, .hljs-title, .hljs-section, .hljs-emphasis, .hljs-type, .hljs-built_in, .hljs-builtin-name, .hljs-selector-attr, .hljs-selector-pseudo, .hljs-addition, .hljs-variable, .hljs-template-tag, .hljs-template-variable {
+  color: #71a7ff !important;
+}
+
+.hljs-number, .hljs-class, .hljs-symbol {
+  color: #ff9d3d !important;
+}
+
+.hljs-comment, .hljs-quote, .hljs-deletion, .hljs-meta {
+  color: #9daab6 !important;
+}
+
+/* Code syntax */
 
 @media only screen and ( max-width: 1250px ) {
 	.mid {

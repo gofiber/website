@@ -92,13 +92,13 @@ func main() {
   }
 
   .main-example .arrow-container {
-    color: #676767;
+    color: #74818d;
     font-size: 2.2em;
   }
 
   .or-scroll {
     margin-top: 1em;
-    color: #777;
+    color: #74818d;
   }
 
   @media only screen and ( max-width: 920px ) {
