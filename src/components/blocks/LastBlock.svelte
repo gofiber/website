@@ -3,7 +3,7 @@
   import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 </script>
 
-<section class="generic-block green last-block">
+<section class="generic-block blue last-block">
   <div class="mid">
     <center>
       <h3>...and much more!</h3>
