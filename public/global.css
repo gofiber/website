@@ -154,6 +154,13 @@ img {
 /* Code syntax */
 
 code.hljs {
+  overflow: auto;
+  tab-size: 2;
+  direction: ltr;
+  text-align: left;
+  word-break: normal;
+  white-space: pre;
+  word-spacing: normal;
   font-size: 14px;
   color: #E6ECF1;
   font-weight: 500 !important;
