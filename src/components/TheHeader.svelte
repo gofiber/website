@@ -88,7 +88,7 @@
       display: block;
 
       border-radius: 0;
-      border-top: 1px solid #e6ecf1;
+      border-bottom: 1px solid #e6ecf1;
     }
   }
 </style>
