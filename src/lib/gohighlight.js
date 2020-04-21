@@ -22,7 +22,7 @@ export default function (hljs) {
         variants: [
           hljs.QUOTE_STRING_MODE,
           { begin: '\'', end: '[^\\\\]\'' },
-          { begin: '`', end: '`' },
+          { begin: '`', end: '`' }
         ]
       },
       {
@@ -38,12 +38,15 @@ export default function (hljs) {
       },
       {
         className: 'function',
-        beginKeywords: 'func', end: /\s*\{/, excludeEnd: true,
+        beginKeywords: 'func',
+        end: /\s*\{/,
+        excludeEnd: true,
         contains: [
           hljs.TITLE_MODE,
           {
             className: 'params',
-            begin: /\(/, end: /\)/,
+            begin: /\(/,
+            end: /\)/,
             keywords: GO_KEYWORDS,
             illegal: /["']/,
             contains: [
@@ -53,11 +56,10 @@ export default function (hljs) {
               },
               {
                 className: 'class',
-                begin: /\Ctx/
+                begin: /Ctx/
               }
             ]
-          },
-
+          }
         ]
       }
     ]
