@@ -85,7 +85,7 @@ img {
 }
 
 .emphasized-button {
-	background: #F5F7F9;
+	background: #f6f6f6;
 	padding: 3em 0;
 	text-align: center;
 }
@@ -118,7 +118,9 @@ img {
 }
 
 .generic-block.faint {
-	background: #f4f4f4;
+  background: #F5F7F9;
+  border-top: 1px solid #E6ECF1;
+  border-bottom: 1px solid #E6ECF1;
 }
 
 .generic-block.blue {
