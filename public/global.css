@@ -160,11 +160,11 @@ code.hljs {
   font-family: "Source Code Pro", Consolas, Menlo, Monaco, Courier, monospace !important;
 }
 
-.hljs-title {
+.hljs-title, .hljs-keyword, .hljs-selector-tag, .hljs-literal, .hljs-doctag, .hljs-title, .hljs-section, .hljs-type, .hljs-selector-id {
   font-weight: inherit !important;
 }
 
-.hljs-keyword {
+.hljs-keyword, .hljs-literal {
   color: #61e3a5 !important;
   font-weight: inherit !important;
 }
