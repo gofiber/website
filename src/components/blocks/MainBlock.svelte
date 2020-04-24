@@ -12,7 +12,7 @@ import "github.com/gofiber/fiber"
 func main() {
   app := fiber.New()
 
-  app.get("/", func (c *fiber.Ctx) {
+  app.Get("/", func (c *fiber.Ctx) {
     c.Send("Hello, World!")
   })
 
