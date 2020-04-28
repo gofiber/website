@@ -106,7 +106,7 @@
         <a href="https://github.com/gofiber/recipes">🍳 Examples</a>
         <a href="https://github.com/gofiber/fiber">📝 GitHub</a>
         <a href="https://www.buymeacoffee.com/fenny">☕ Buy a Coffee</a>
-        <a href="https://t.me/gofiber">💬 Telegram</a>
+        <a href="https://gofiber.io/discord">💬 Discord</a>
       </nav>
     </div>
   </div>
