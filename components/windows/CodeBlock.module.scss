@@ -1,0 +1,15 @@
+@import '../../styles/colors';
+
+.codeWindowContent {
+  pre {
+    margin: 0;
+    white-space: pre-wrap;
+
+    code {
+      background: $accent;
+      border-bottom-left-radius: 3px;
+      border-bottom-right-radius: 3px;
+      line-height: 1.2;
+    }
+  }
+}

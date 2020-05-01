@@ -1,0 +1,27 @@
+.languagesBlock {
+  .mid {
+    display: block;
+  }
+
+  .flags {
+    padding: 1.2em 0;
+
+    a {
+      &:hover {
+        text-decoration: none;
+      }
+
+      img {
+        margin-right: 5px;
+        margin-bottom: 5px;
+        height: 20px;
+      }
+
+      &:last-child {
+        img {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}

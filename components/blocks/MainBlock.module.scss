@@ -1,0 +1,71 @@
+@import '../../styles/mixins';
+
+.mainBlock {
+  text-align: center;
+  padding: 5em 1em;
+
+  .largeText {
+    font-weight: 800;
+    font-size: 3em;
+    margin: 0;
+  }
+
+  .description {
+    font-size: 1.2em;
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+.mainExample {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 3em;
+
+  .codeExampleWrapper, .result {
+    width: 40%;
+  }
+
+  .arrowContainer {
+    color: #74818d;
+    font-size: 2.2em;
+  }
+}
+
+.orScroll {
+  margin-top: 1em;
+  color: #74818d;
+}
+
+@include mobile-break {
+  .mainBlock {
+    padding: 2em 1em;
+
+    .largeText {
+      font-size: 2em;
+      margin-bottom: 1em;
+    }
+
+    .description {
+      width: auto;
+    }
+  }
+
+  .mainExample {
+    display: block;
+
+    .codeExampleWrapper, .result {
+      width: auto;
+    }
+
+    .arrowContainer {
+      padding: 1em 0;
+      text-align: center;
+
+      svg {
+        transform: rotate(90deg);
+      }
+    }
+  }
+}

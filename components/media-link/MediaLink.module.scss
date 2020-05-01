@@ -1,0 +1,22 @@
+.mediaLink {
+  display: block;
+  padding: 1em 2em;
+  margin-bottom: 2em;
+  border-radius: 4px;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.3);
+  transition: box-shadow .15s linear;
+
+  &:hover {
+    text-decoration: none;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+  }
+
+  .title {
+    font-weight: 600;
+    font-size: 1.45em;
+  }
+
+  .details {
+    color: #454545;
+  }
+}

@@ -1,0 +1,16 @@
+@import '../../styles/mixins';
+
+.lmfBlock .mid {
+  align-items: flex-start;
+}
+
+.lmfBlock .mid .left {
+  text-align: right;
+}
+
+@include mobile-break {
+  .lmfBlock .mid .left,
+  .lmfBlock .mid .right {
+    text-align: center;
+  }
+}

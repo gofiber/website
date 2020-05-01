@@ -4,7 +4,7 @@ The official website of the Fiber Web Framework — https://gofiber.io
 
 ## Project Description
 
-This project is a [Svelte](https://svelte.dev) app. In order to work on it locally,
+This project is a [Next.js](https://nextjs.org) app. In order to work on it locally,
 you need to have Node.js installed on your computer.
 
 ## Getting Started
@@ -36,11 +36,11 @@ Use the build command to create a deployable bundle:
 npm run build
 ```
 
-You can then deploy the files inside of `public` to a web hosting service. The
+You can then deploy the files inside of `out` to a web hosting service. The
 official website deploys to Netlify.
 
 ## License
 
-Landingpage by [József Sallai](https://github.com/jozsefsallai).
+Landing page by [József Sallai](https://github.com/jozsefsallai).
 
 MIT.

@@ -1,0 +1,43 @@
+code.hljs {
+  overflow: auto;
+  tab-size: 2;
+  direction: ltr;
+  text-align: left;
+  word-break: normal;
+  white-space: pre;
+  word-spacing: normal;
+  padding-bottom: 15px;
+  font-size: 14px;
+  color: #E6ECF1;
+  font-weight: 500 !important;
+  font-family: "Source Code Pro", Consolas, Menlo, Monaco, Courier, monospace !important;
+}
+
+.hljs-title, .hljs-keyword, .hljs-selector-tag, .hljs-literal, .hljs-doctag, .hljs-title, .hljs-section, .hljs-type, .hljs-selector-id {
+  font-weight: inherit !important;
+}
+
+.hljs-keyword, .hljs-literal {
+  color: #61e3a5 !important;
+  font-weight: inherit !important;
+}
+
+.hljs-string, .hljs-bullet, .hljs-subst, .hljs-title, .hljs-section, .hljs-emphasis, .hljs-type, .hljs-built_in, .hljs-builtin-name, .hljs-selector-attr, .hljs-selector-pseudo, .hljs-addition, .hljs-variable, .hljs-template-tag, .hljs-template-variable {
+  color: #71a7ff !important;
+}
+.hljs-class {
+  color: #E6ECF1 !important;
+}
+.hljs-number, .hljs-symbol {
+  color: #ff9d3d !important;
+}
+
+.hljs-comment, .hljs-quote, .hljs-deletion, .hljs-meta {
+  color: #9daab6 !important;
+}
+
+@media only screen and ( max-width: 480px ) {
+  code.hljs {
+    font-size: 12px;
+  }
+}

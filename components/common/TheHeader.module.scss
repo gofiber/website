@@ -1,0 +1,86 @@
+@import '../../styles/colors';
+@import '../../styles/mixins';
+
+.header {
+  padding: 1em;
+
+  .headerMid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .headerLeft .logo {
+      width: 110px;
+    }
+
+    nav a {
+      color: #000;
+      display: inline-block;
+      padding: 0.4em 1em;
+      margin-right: 0.3em;
+      border-radius: 3px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      &:hover {
+        background: $accent;
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .hamburgerOpener {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    a {
+      font-size: 2em;
+      color: #222;
+      display: block;
+      padding: 0.4em;
+
+      svg {
+        width: 1em;
+        height: 1em;
+      }
+    }
+  }
+
+  @include mobile-break {
+    padding: 0;
+
+    .headerMid {
+      display: block;
+      padding: 0;
+
+      .headerLeft {
+        padding: 0.7em;
+      }
+
+      nav {
+        border-top: 1px solid #e6ecf1;
+        background: #f5f7f9;
+        display: none;
+
+        &.opened {
+          display: block;
+        }
+
+        a {
+          display: block;
+          border-radius: 0;
+          border-bottom: 1px solid #e6ecf1;
+        }
+      }
+    }
+
+    .hamburgerOpener {
+      display: block;
+    }
+  }
+}

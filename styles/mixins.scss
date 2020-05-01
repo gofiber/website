@@ -1,0 +1,13 @@
+@import './variables';
+
+@mixin mid-break {
+  @media only screen and ( max-width: $mid-break ) {
+    @content;
+  }
+}
+
+@mixin mobile-break {
+  @media only screen and ( max-width: $mobile-break ) {
+    @content;
+  }
+}

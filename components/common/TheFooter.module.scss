@@ -1,0 +1,17 @@
+@import '../../styles/colors';
+
+.mainFooter {
+  text-align: center;
+  background: $accent-darker;
+  padding: 2em 0.5em;
+  font-size: 0.8em;
+  color: #fff;
+
+  a {
+    color: #cecece;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+}

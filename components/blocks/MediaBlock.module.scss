@@ -1,0 +1,21 @@
+@import '../../styles/mixins';
+
+.mediaBlock {
+  .mid {
+    display: block;
+  }
+
+  h3 {
+    text-align: center;
+    margin-bottom: 1.2em;
+  }
+}
+
+.mediaLinks {
+  width: 75%;
+  margin: 0 auto;
+
+  @include mobile-break {
+    width: auto;
+  }
+}

@@ -1,0 +1,34 @@
+.titlebar {
+  padding-top: 6px;
+}
+
+.browserWindowContent {
+  padding: 0;
+
+  .genericBrowserContent {
+    background: #fff;
+    padding: 8px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    min-height: 150px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+
+    pre {
+      margin: 0;
+      word-wrap: break-word;
+      white-space: pre-wrap;
+    }
+  }
+}
+
+.urlBar {
+  font-size: 13px;
+  background: #fff;
+  line-height: 1;
+  padding: 5px;
+  width: 50%;
+  color: #777;
+  margin: 0 auto;
+  border-radius: 4px;
+}
