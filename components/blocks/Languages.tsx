@@ -24,7 +24,7 @@ class LanguagesBlock extends Component {
 
   render() {
     return (
-      <section className={`generic-block faint ${styles.languagesBlock}`}>
+      <section className={`generic-block ${styles.languagesBlock}`}>
         <div className={`mid ${styles.mid}`}>
           <div style={{ textAlign: 'center' }}>
             <h3>Translated To 11 Languages</h3>

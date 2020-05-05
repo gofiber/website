@@ -1,6 +1,8 @@
 @import '../../styles/mixins';
 
 .mediaBlock {
+  border-top: 3px solid #E6ECF1;
+
   .mid {
     display: block;
   }

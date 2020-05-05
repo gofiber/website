@@ -13,6 +13,7 @@ import RateLimiterBlock from '../components/blocks/RateLimiter';
 import LanguagesBlock from '../components/blocks/Languages';
 import MediaBlock from '../components/blocks/MediaBlock';
 import LastBlock from '../components/blocks/LastBlock';
+import SupportBlock from '../components/blocks/Support';
 
 class Home extends Component {
   render() {
@@ -47,6 +48,7 @@ class Home extends Component {
         <Templating />
         <Websockets />
         <RateLimiterBlock />
+        <SupportBlock />
         <LanguagesBlock />
         <MediaBlock />
         <LastBlock />
