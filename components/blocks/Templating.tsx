@@ -5,18 +5,21 @@ const exampleCode = `package main
 
 import (
   "github.com/gofiber/fiber"
-  "github.com/gofiber/template"
+  "github.com/gofiber/template/html"
+  // "github.com/gofiber/template/pug"
 )
 
 func main() {
   app := fiber.New()
 
-  app.Settings.TemplateEngine = template.Mustache()
-  // app.Settings.TemplateEngine = template.Amber()
-  // app.Settings.TemplateEngine = template.Handlebars()
-  // app.Settings.TemplateEngine = template.Pug()
+  app.Settings.Views = html.New("./views", ".html")
+  // app.Settings.Views = pug.New("./views", ".pug")
 
-  // ...
+	app.Get("/", func(c *fiber.Ctx) {
+		c.Render("index", fiber.Map{
+			"Title": "Hello, World!",
+		})
+	})
 
   app.Listen(3000)
 }`;

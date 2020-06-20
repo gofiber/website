@@ -13,12 +13,11 @@ func main() {
 
   app.Use(cors.New())
   app.Use(func (c *fiber.Ctx) {
-    if !c.Is("json") {
+    if c.Is("json") {
+      c.Next()
+    } else {
       c.Send("Sorry, only JSON requests are allowed!")
-      return
     }
-
-    c.Next()
   })
 
   app.Get("/", func(c *fiber.Ctx) {
