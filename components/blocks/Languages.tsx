@@ -20,6 +20,8 @@ class LanguagesBlock extends Component {
     { id: 'fr', name: 'French' },
     { id: 'tr', name: 'Turkish' },
     { id: 'id', name: 'Indonesian' }
+    { id: 'he', name: 'Hebrew' },
+    { id: 'sa', name: 'Arabic' },
   ];
 
   render() {
@@ -27,7 +29,7 @@ class LanguagesBlock extends Component {
       <section className={`generic-block ${styles.languagesBlock}`}>
         <div className={`mid ${styles.mid}`}>
           <div style={{ textAlign: 'center' }}>
-            <h3>Translated To 11 Languages</h3>
+            <h3>Translated To 14 Languages</h3>
             <div className={styles.flags}>
               {this.languages.map((language, idx) => {
                 return (
