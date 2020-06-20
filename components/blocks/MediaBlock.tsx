@@ -6,6 +6,34 @@ import MediaLink from '../media-link/MediaLink';
 class MediaBlock extends Component {
   private readonly items: MediaLinkItem[] = [
     {
+      url: "https://blog.logrocket.com/express-style-api-go-fiber/",
+      website: "logrocket.com",
+      title: "Building an Express-style API in Go with Fiber",
+      author: "Alexander Nnakwue",
+      date: "june 10, 2020"
+    },
+    {
+      url: "https://vugt.me/the-road-to-web-based-authentication-with-fiber/",
+      website: "vugt.me",
+      title: "The road to web-based authentication with Fiber ⚡",
+      author: "Thomas van Vugt",
+      date: "May 20, 2020"
+    },
+    {
+      url: "https://dev.to/koddr/fiber-v1-9-5-how-to-improve-performance-by-817-and-stay-fast-flexible-and-friendly-2dp6",
+      website: "dev.to",
+      title: "Fiber v1.9.6 🔥 How to improve performance by 817% and stay fast, flexible and friendly?",
+      author: "Vic Shóstak",
+      date: "May 12, 2020"
+    },
+    {
+      url: "https://blog.yongweilun.me/create-a-travel-list-app-with-go-fiber-angular-mongodb-and-google-cloud-secret-manager-ck9fgxy0p061pcss1xt1ubu8t",
+      website: "yongweilun.me",
+      title: "🌎 Create a travel list app with Go, Fiber, Angular, MongoDB and Google Cloud Secret Manager",
+      author: "Wei Lun",
+      date: "April 25, 2020"
+    },
+    {
       url: "https://tutorialedge.net/golang/basic-rest-api-go-fiber/",
       website: "tutorialedge.net",
       title: "Building a Basic REST API in Go using Fiber",
