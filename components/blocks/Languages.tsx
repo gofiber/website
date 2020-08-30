@@ -19,7 +19,7 @@ class LanguagesBlock extends Component {
     { id: 'ko', name: 'Korean' },
     { id: 'fr', name: 'French' },
     { id: 'tr', name: 'Turkish' },
-    { id: 'id', name: 'Indonesian' }
+    { id: 'id', name: 'Indonesian' },
     { id: 'he', name: 'Hebrew' },
     { id: 'sa', name: 'Arabic' },
   ];
