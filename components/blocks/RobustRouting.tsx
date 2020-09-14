@@ -1,16 +1,16 @@
 import { Component } from 'react';
 import CodeBlock from '../windows/CodeBlock';
 
-const exampleCode = `app.Get("/", func (c *fiber.Ctx) {
-  c.Send("GET request")
+const exampleCode = `app.Get("/", func (c *fiber.Ctx) error {
+    return c.SendString("GET request")
 })
 
-app.Get("/:param", func (c *fiber.Ctx) {
-  c.Send("GET request with param: ", c.Params("param"))
+app.Get("/:param", func (c *fiber.Ctx) error {
+    return c.SendString("param: " + c.Params("param"))
 })
 
-app.Post("/", func (c *fiber.Ctx) {
-  c.Send("POST request")
+app.Post("/", func (c *fiber.Ctx) error {
+    return c.SendString("POST request")
 })`;
 
 class RobustRouting extends Component {

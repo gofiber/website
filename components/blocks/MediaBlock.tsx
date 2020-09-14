@@ -86,7 +86,7 @@ class MediaBlock extends Component {
 
   render() {
     return (
-      <section className={`generic-block ${styles.mediaBlock}`}>
+      <section className={`generic-block faint reverse ${styles.mediaBlock}`}>
         <div className={`mid ${styles.mid}`}>
           <div className="media-container">
             <h3>Media</h3>

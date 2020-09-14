@@ -4,24 +4,22 @@ import CodeBlock from '../windows/CodeBlock';
 const exampleCode = `package main
 
 import (
-  "github.com/gofiber/fiber"
-  "github.com/gofiber/limiter"
+    "github.com/gofiber/fiber/v2"
+    "github.com/gofiber/fiber/v2/middleware/limiter"
 )
 
 func main() {
   app := fiber.New()
 
   // 3 requests per 10 seconds max
-  cfg := limiter.Config{
-    Timeout: 10,
-    Max: 3,
-  }
-
-  app.Use(limiter.New(cfg))
+  app.Use(limiter.New(limiter.Config{
+      Timeout:  10,
+      Max:      3,
+  }))
 
   // ...
 
-  app.Listen(3000)
+  app.Listen(":3000")
 }`;
 
 class RateLimiterBlock extends Component {
