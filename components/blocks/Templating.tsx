@@ -4,24 +4,24 @@ import CodeBlock from '../windows/CodeBlock';
 const exampleCode = `package main
 
 import (
-  "github.com/gofiber/fiber"
-  "github.com/gofiber/template/html"
-  // "github.com/gofiber/template/pug"
+    "log"
+
+    "github.com/gofiber/fiber/v2"
+    "github.com/gofiber/template/html"
 )
 
 func main() {
-  app := fiber.New()
+    app := fiber.New(fiber.Config{
+        Views: html.New("./views", ".html"),
+    })
 
-  app.Settings.Views = html.New("./views", ".html")
-  // app.Settings.Views = pug.New("./views", ".pug")
+    app.Get("/", func(c *fiber.Ctx) error {
+      return c.Render("index", fiber.Map{
+         "Title": "Hello, World!",
+      })
+    })
 
-	app.Get("/", func(c *fiber.Ctx) {
-		c.Render("index", fiber.Map{
-			"Title": "Hello, World!",
-		})
-	})
-
-  app.Listen(3000)
+    log.Fatal(app.Listen(":3000"))
 }`;
 
 class Templating extends Component {

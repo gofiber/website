@@ -4,29 +4,31 @@ import CodeBlock from '../windows/CodeBlock';
 const exampleCode = `package main
 
 import (
-  "github.com/gofiber/fiber/v2"
-  "github.com/gofiber/fiber/v2/middleware/cors"
+    "log"
+    
+    "github.com/gofiber/fiber/v2"
+    "github.com/gofiber/fiber/v2/middleware/cors"
 )
 
 func main() {
-  app := fiber.New()
+    app := fiber.New()
 
-  app.Use(cors.New())
+    app.Use(cors.New())
 
-  app.Use(func (c *fiber.Ctx) error {
-    if c.Is("json") {
-      return c.Next()
-    }
-    return c.SendString("Only JSON allowed!")
-  })
-
-  app.Get("/", func(c *fiber.Ctx) error {
-    return c.JSON(fiber.Map{
-      "message": "Hello World",
+    app.Use(func (c *fiber.Ctx) error {
+        if c.Is("json") {
+            return c.Next()
+        }
+        return c.SendString("Only JSON allowed!")
     })
-  })
 
-  app.Listen(":3000")
+    app.Get("/", func(c *fiber.Ctx) error {
+        return c.JSON(fiber.Map{
+            "message": "Hello World",
+        })
+    })
+
+    log.Fatal(app.Listen(":3000"))
 }`;
 
 class MiddlewareBlock extends Component {

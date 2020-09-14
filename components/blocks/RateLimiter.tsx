@@ -4,6 +4,8 @@ import CodeBlock from '../windows/CodeBlock';
 const exampleCode = `package main
 
 import (
+    "log"
+
     "github.com/gofiber/fiber/v2"
     "github.com/gofiber/fiber/v2/middleware/limiter"
 )
@@ -19,7 +21,7 @@ func main() {
 
   // ...
 
-  app.Listen(":3000")
+  log.Fatal(app.Listen(":3000"))
 }`;
 
 class RateLimiterBlock extends Component {
