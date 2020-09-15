@@ -37,7 +37,7 @@ npm run build
 ```
 
 You can then deploy the files inside of `out` to a web hosting service. The
-official website deploys to Netlify.
+official website deploys to Github Pages.
 
 ## License
 
