@@ -8,21 +8,21 @@ interface Language {
 
 class LanguagesBlock extends Component {
   private readonly languages: Language[] = [
-    { id: 'en', name: 'English' },
-    { id: 'ru', name: 'Russian' },
-    { id: 'es', name: 'Spanish' },
-    { id: 'ja', name: 'Japanese' },
-    { id: 'pt', name: 'Portuguese' },
-    { id: 'zh-CN', name: 'Chinese' },
-    { id: 'zh-TW', name: 'Taiwanese' },
-    { id: 'de', name: 'German' },
-    { id: 'nl', name: 'Dutch' },
-    { id: 'ko', name: 'Korean' },
-    { id: 'fr', name: 'French' },
-    { id: 'tr', name: 'Turkish' },
-    { id: 'id', name: 'Indonesian' },
-    { id: 'he', name: 'Hebrew' },
-    { id: 'ar_SA', name: 'Arabic' },
+    { id: '', name: 'English' },
+    { id: '_ru', name: 'Russian' },
+    { id: '_es', name: 'Spanish' },
+    { id: '_ja', name: 'Japanese' },
+    { id: '_pt', name: 'Portuguese' },
+    { id: '_zh-CN', name: 'Chinese' },
+    { id: '_zh-TW', name: 'Taiwanese' },
+    { id: '_de', name: 'German' },
+    { id: '_nl', name: 'Dutch' },
+    { id: '_ko', name: 'Korean' },
+    { id: '_fr', name: 'French' },
+    { id: '_tr', name: 'Turkish' },
+    { id: '_id', name: 'Indonesian' },
+    { id: '_he', name: 'Hebrew' },
+    { id: '_ar_SA', name: 'Arabic' },
   ];
 
   render() {
@@ -35,7 +35,7 @@ class LanguagesBlock extends Component {
               {this.languages.map((language, idx) => {
                 return (
                   <a
-                    href={`https://github.com/gofiber/fiber/blob/master/.github/README_${language.id}.md`}
+                    href={`https://github.com/gofiber/fiber/blob/master/.github/README${language.id}.md`}
                     target="_blank"
                     title={language.name}
                     key={idx}
