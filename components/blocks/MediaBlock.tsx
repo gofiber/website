@@ -6,6 +6,13 @@ import MediaLink from '../media-link/MediaLink';
 class MediaBlock extends Component {
   private readonly items: MediaLinkItem[] = [
     {
+      url: "https://dev.to/fenny/getting-started-with-fiber-36b6",
+      website: "dev.to",
+      title: "Getting started with Fiber ⚡",
+      author: "Fenny 🔥",
+      date: "june 10, 2020"
+    },
+    {
       url: "https://blog.logrocket.com/express-style-api-go-fiber/",
       website: "logrocket.com",
       title: "Building an Express-style API in Go with Fiber",
