@@ -33,9 +33,10 @@ class LanguagesBlock extends Component {
             <h3>Translated To {this.languages.length} Languages</h3>
             <div className={styles.flags}>
               {this.languages.map((language, idx) => {
+                const languageID = idx ? `_${language.id}` : '';
                 return (
                   <a
-                    href={`https://github.com/gofiber/fiber/blob/master/.github/README${language.id}.md`}
+                    href={`https://github.com/gofiber/fiber/blob/master/.github/README${languageID}.md`}
                     target="_blank"
                     title={language.name}
                     key={idx}
