@@ -13,7 +13,7 @@
     "@fortawesome/free-brands-svg-icons": "^5.13.0",
     "@fortawesome/free-solid-svg-icons": "^5.13.0",
     "@fortawesome/react-fontawesome": "^0.1.9",
-    "highlight.js": "^10.4.1",
+    "highlight.js": "^9.18.1",
     "next": "9.3.6",
     "react": "16.13.1",
     "react-dom": "16.13.1",
