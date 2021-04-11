@@ -6,6 +6,13 @@ import MediaLink from '../media-link/MediaLink';
 class MediaBlock extends Component {
   private readonly items: MediaLinkItem[] = [
     {
+      url: "https://dev.to/koddr/build-a-restful-api-on-go-fiber-postgresql-jwt-and-swagger-docs-in-isolated-docker-containers-475j",
+      website: "dev.to",
+      title: "📖 Build a RESTful API on Go: Fiber, PostgreSQL, JWT and Swagger docs in isolated Docker containers",
+      author: "Vic Shóstak",
+      date: "march 22, 2021"
+    },
+    {
       url: "https://dev.to/fenny/getting-started-with-fiber-36b6",
       website: "dev.to",
       title: "Getting started with Fiber ⚡",
