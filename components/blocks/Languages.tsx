@@ -23,6 +23,7 @@ class LanguagesBlock extends Component {
     { id: 'id', name: 'Indonesian' },
     { id: 'he', name: 'Hebrew' },
     { id: 'sa', name: 'Arabic' },
+    { id: 'fa', name: 'Persian' },
   ];
 
   render() {
