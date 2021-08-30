@@ -6,6 +6,13 @@ import MediaLink from '../media-link/MediaLink';
 class MediaBlock extends Component {
   private readonly items: MediaLinkItem[] = [
     {
+      url: "https://dev.to/koddr/go-fiber-by-examples-testing-the-application-1ldf",
+      website: "dev.to",
+      title: "📖 Go Fiber by Examples: Testing the application",
+      author: "Vic Shóstak",
+      date: "august 30, 2021"
+    },
+    {
       url: "https://dev.to/koddr/go-fiber-by-examples-delving-into-built-in-functions-1p3k",
       website: "dev.to",
       title: "📖 Go Fiber by Examples: Delving into built-in functions",
