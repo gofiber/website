@@ -14,6 +14,7 @@ import LanguagesBlock from '../components/blocks/Languages';
 import MediaBlock from '../components/blocks/MediaBlock';
 import LastBlock from '../components/blocks/LastBlock';
 import SupportBlock from '../components/blocks/Support';
+import SponsorsBlock from '../components/blocks/SponsorsBlock';
 
 class Home extends Component {
   render() {
@@ -36,6 +37,7 @@ class Home extends Component {
         <SupportBlock />
         <LanguagesBlock />
         <MediaBlock />
+        <SponsorsBlock />
         <LastBlock />
       </div>
     );
