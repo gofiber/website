@@ -16,9 +16,7 @@ class BrowserWindow extends Component<BrowserWindowProps> {
               <div className="titlebar-button maximize"></div>
               <div className="titlebar-button minimize"></div>
             </div>
-            <div className={styles.urlBar}>
-              {this.props.url}
-            </div>
+            <div className={styles.urlBar}>{this.props.url}</div>
           </div>
 
           <div className={styles.browserWindowContent}>

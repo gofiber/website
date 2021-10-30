@@ -19,13 +19,14 @@ cd fiber-website
 **2. Install the dependencies:**
 
 ```
-npm install
+npm i -g yarn
+yarn
 ```
 
 **3. Start the app in dev mode:**
 
 ```
-npm run dev
+yarn dev
 ```
 
 ## Deployment
@@ -33,7 +34,7 @@ npm run dev
 Use the build command to create a deployable bundle:
 
 ```
-npm run build
+yarn build
 ```
 
 You can then deploy the files inside of `out` to a web hosting service. The
@@ -41,6 +42,5 @@ official website deploys to Github Pages.
 
 ## License
 
-Landing page by [József Sallai](https://github.com/jozsefsallai).
-
+Landing page by [József Sallai](https://github.com/jozsefsallai). Licensed under
 MIT.

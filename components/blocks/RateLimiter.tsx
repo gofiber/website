@@ -32,14 +32,12 @@ class RateLimiterBlock extends Component {
           <div className="left">
             <h3>Rate Limiter</h3>
             <p>
-              With Fiber, limiting repeated requests to public APIs and endpoints
-              is very simple. No more abusive requests!
+              With Fiber, limiting repeated requests to public APIs and
+              endpoints is very simple. No more abusive requests!
             </p>
           </div>
           <div className="right">
-            <CodeBlock>
-              {exampleCode}
-            </CodeBlock>
+            <CodeBlock>{exampleCode}</CodeBlock>
           </div>
         </div>
       </div>

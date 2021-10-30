@@ -14,7 +14,7 @@ class TheHeader extends Component<{}, TheHeaderState> {
   constructor(props) {
     super(props);
     this.state = {
-      opened: false
+      opened: false,
     };
 
     this.toggleHamburger = this.toggleHamburger.bind(this);
@@ -25,12 +25,12 @@ class TheHeader extends Component<{}, TheHeaderState> {
     { url: 'https://github.com/gofiber/recipes', text: '🍳 Examples' },
     { url: 'https://github.com/gofiber/fiber', text: '📝 GitHub' },
     { url: 'https://www.buymeacoffee.com/fenny', text: '☕ Buy a Coffee' },
-    { url: '/discord', text: '💬 Discord' }
+    { url: '/discord', text: '💬 Discord' },
   ];
 
   private toggleHamburger() {
     this.setState({
-      opened: !this.state.opened
+      opened: !this.state.opened,
     });
   }
 
@@ -40,13 +40,21 @@ class TheHeader extends Component<{}, TheHeaderState> {
         <div className={`mid ${styles.headerMid}`}>
           <div className={styles.headerLeft}>
             <a href="/">
-              <img src="/assets/images/logo.svg" alt="Fiber" className={styles.logo} />
+              <img
+                src="/assets/images/logo.svg"
+                alt="Fiber"
+                className={styles.logo}
+              />
             </a>
           </div>
 
           <div>
             <nav className={this.state.opened ? styles.opened : undefined}>
-              {this.links.map((link, idx) => <a href={link.url} key={idx}>{link.text}</a>)}
+              {this.links.map((link, idx) => (
+                <a href={link.url} key={idx}>
+                  {link.text}
+                </a>
+              ))}
             </nav>
           </div>
         </div>

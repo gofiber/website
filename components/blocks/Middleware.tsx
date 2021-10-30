@@ -39,16 +39,16 @@ class MiddlewareBlock extends Component {
           <div className="right">
             <h3>Flexible Middleware Support</h3>
             <p>
-              Choose from <a href="https://docs.gofiber.io/middleware" target="_blank">a
-              number of already existing middleware</a> or create your own! Use them
-              to verify and manipulate certain requests in your app before they reach
-              your controller.
+              Choose from{' '}
+              <a href="https://docs.gofiber.io/middleware" target="_blank">
+                a number of already existing middleware
+              </a>{' '}
+              or create your own! Use them to verify and manipulate certain
+              requests in your app before they reach your controller.
             </p>
           </div>
           <div className="left">
-            <CodeBlock>
-              {exampleCode}
-            </CodeBlock>
+            <CodeBlock>{exampleCode}</CodeBlock>
           </div>
         </div>
       </section>

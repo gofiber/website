@@ -26,15 +26,13 @@ class Websockets extends Component {
           <div className="right">
             <h3>WebSocket Support</h3>
             <p>
-              Use the power of <strong>WebSockets</strong> in your Fiber app! Build fast
-              interactive user experiences with performance and scalability
-              guaranteed.
+              Use the power of <strong>WebSockets</strong> in your Fiber app!
+              Build fast interactive user experiences with performance and
+              scalability guaranteed.
             </p>
           </div>
           <div className="left">
-            <CodeBlock>
-              {exampleCode}
-            </CodeBlock>
+            <CodeBlock>{exampleCode}</CodeBlock>
           </div>
         </div>
       </section>

@@ -22,7 +22,8 @@ class RobustRouting extends Component {
             <h3>Robust Routing</h3>
             <p>
               Setting up routes for your application has never been so easy! The
-              Express-like route definitions are easy to understand and work with.
+              Express-like route definitions are easy to understand and work
+              with.
             </p>
           </div>
           <div className="right">

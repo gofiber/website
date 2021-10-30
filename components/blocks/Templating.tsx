@@ -32,16 +32,17 @@ class Templating extends Component {
           <div className="left">
             <h3>Template Engines</h3>
             <p>
-              Want to use a different template engine in your Fiber app? Fear no more! Fiber
-              supports multiple template engines, such as Handlebars and Pug, thanks to
-              the <a href="https://github.com/gofiber/template" target="_blank">template
-              middleware</a>.
+              Want to use a different template engine in your Fiber app? Fear no
+              more! Fiber supports multiple template engines, such as Handlebars
+              and Pug, thanks to the{' '}
+              <a href="https://github.com/gofiber/template" target="_blank">
+                template middleware
+              </a>
+              .
             </p>
           </div>
           <div className="right">
-            <CodeBlock>
-              {exampleCode}
-            </CodeBlock>
+            <CodeBlock>{exampleCode}</CodeBlock>
           </div>
         </div>
       </section>

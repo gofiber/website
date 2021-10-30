@@ -30,11 +30,15 @@ class MainBlock extends Component {
     return (
       <div>
         <section className={`mid ${styles.mainBlock}`}>
-          <h2 className={styles.largeText}>An Express-inspired web framework written in Go.</h2>
+          <h2 className={styles.largeText}>
+            An Express-inspired web framework written in Go.
+          </h2>
           <div className={styles.description}>
-            Fiber is a Go web framework built on top of Fasthttp, the <strong>fastest</strong> HTTP
-            engine for Go. It's designed to <strong>ease</strong> things up for fast development
-            with <strong>zero memory allocation</strong> and <strong>performance</strong> in mind.
+            Fiber is a Go web framework built on top of Fasthttp, the{' '}
+            <strong>fastest</strong> HTTP engine for Go. It's designed to{' '}
+            <strong>ease</strong> things up for fast development with{' '}
+            <strong>zero memory allocation</strong> and{' '}
+            <strong>performance</strong> in mind.
           </div>
         </section>
 
@@ -49,9 +53,7 @@ class MainBlock extends Component {
 
           <div className={styles.result}>
             <BrowserWindow url="http://localhost:3000">
-              <pre>
-                Hello, World!
-              </pre>
+              <pre>Hello, World!</pre>
             </BrowserWindow>
           </div>
         </section>

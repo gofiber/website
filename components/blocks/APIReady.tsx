@@ -23,9 +23,9 @@ class APIReady extends Component {
           <div className="left">
             <h3>API-ready</h3>
             <p>
-              Are you building an API server? We've got you covered! Fiber is the
-              perfect choice for building REST APIs in Go. Receiving and sending data
-              is fast and easy!
+              Are you building an API server? We've got you covered! Fiber is
+              the perfect choice for building REST APIs in Go. Receiving and
+              sending data is fast and easy!
             </p>
           </div>
           <div className="right">

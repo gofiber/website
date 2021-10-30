@@ -10,7 +10,6 @@ const exampleCode = `app.Static("/", "./public")
 // serve from multiple directories
 app.Static("/", "./files")`;
 
-
 class StaticFiles extends Component {
   render() {
     return (
@@ -25,9 +24,7 @@ class StaticFiles extends Component {
             </p>
           </div>
           <div className="left">
-            <CodeBlock>
-              {exampleCode}
-            </CodeBlock>
+            <CodeBlock>{exampleCode}</CodeBlock>
           </div>
         </div>
       </section>

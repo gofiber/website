@@ -18,8 +18,8 @@ class LowMemoryFootprint extends Component {
           <div className={`right ${styles.right}`}>
             <h3>Rapid Programming</h3>
             <p>
-              Take your idea and turn it into reality in no time! Thanks to
-              the well-designed and easy-to-learn API, you can develop your
+              Take your idea and turn it into reality in no time! Thanks to the
+              well-designed and easy-to-learn API, you can develop your
               application in record speed (especially if you're coming from an
               Express.js background).
             </p>

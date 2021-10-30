@@ -8,8 +8,9 @@ class SupportBlock extends Component {
           <div className="right">
             <h3>Help &amp; Support</h3>
             <p>
-              Join a community of developers who are passionate about Fiber. Ask questions,
-              share your creation, and have fun in our <strong>Discord server</strong>.
+              Join a community of developers who are passionate about Fiber. Ask
+              questions, share your creation, and have fun in our{' '}
+              <strong>Discord server</strong>.
             </p>
           </div>
           <div className="left" style={{ textAlign: 'center' }}>
