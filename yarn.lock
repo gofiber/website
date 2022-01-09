@@ -1756,10 +1756,10 @@
   "resolved" "https://registry.npmjs.org/he/-/he-1.2.0.tgz"
   "version" "1.2.0"
 
-"highlight.js@^11.3.1":
-  "integrity" "sha512-PUhCRnPjLtiLHZAQ5A/Dt5F8cWZeMyj9KRsACsWT+OD6OP0x6dp5OmT5jdx0JgEyPxPZZIPQpRN2TciUT7occw=="
-  "resolved" "https://registry.npmjs.org/highlight.js/-/highlight.js-11.3.1.tgz"
-  "version" "11.3.1"
+"highlight.js@11.4.0":
+  "integrity" "sha512-nawlpCBCSASs7EdvZOYOYVkJpGmAOKMYZgZtUqSRqodZE0GRVcFKwo1RcpeOemqh9hyttTdd5wDBwHkuSyUfnA=="
+  "resolved" "https://registry.npmjs.org/highlight.js/-/highlight.js-11.4.0.tgz"
+  "version" "11.4.0"
 
 "hmac-drbg@^1.0.1":
   "integrity" "sha1-0nRXAQJabHdabFRXk+1QL8DGSaE="
