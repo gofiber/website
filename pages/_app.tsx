@@ -1,12 +1,12 @@
-import '../styles/base.scss';
+import 'styles/base.scss';
 import 'highlight.js/styles/monokai.css';
 
 import { AppProps } from 'next/app';
-import TheFooter from '../components/common/TheFooter';
-import TheHeader from '../components/common/TheHeader';
+import TheFooter from 'components/common/TheFooter';
+import TheHeader from 'components/common/TheHeader';
 
 import hljs from 'highlight.js/lib/core';
-import go from '../lib/gohighlight';
+import go from 'lib/gohighlight';
 import Head from 'next/head';
 
 export default function App({ Component, pageProps }: AppProps) {

@@ -1,4 +1,4 @@
-@import '../../styles/mixins';
+@import 'styles/mixins';
 
 .mainBlock {
   text-align: center;
@@ -23,7 +23,8 @@
   justify-content: space-between;
   margin-bottom: 3em;
 
-  .codeExampleWrapper, .result {
+  .codeExampleWrapper,
+  .result {
     width: 40%;
   }
 
@@ -55,7 +56,8 @@
   .mainExample {
     display: block;
 
-    .codeExampleWrapper, .result {
+    .codeExampleWrapper,
+    .result {
       width: auto;
     }
 

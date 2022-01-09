@@ -1,6 +1,6 @@
 import styles from './TheFooter.module.scss';
 import { Component } from 'react';
-import { GenericLink } from '../../typings';
+import { GenericLink } from 'typings';
 
 class FooterLink extends Component<GenericLink> {
   render() {

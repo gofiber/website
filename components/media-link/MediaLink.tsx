@@ -1,5 +1,5 @@
 import styles from './MediaLink.module.scss';
-import { MediaLinkItem } from '../../typings';
+import { MediaLinkItem } from 'typings';
 import { Component } from 'react';
 
 interface ModuleProps {

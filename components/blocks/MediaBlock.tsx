@@ -1,7 +1,7 @@
 import styles from './MediaBlock.module.scss';
 import { Component } from 'react';
-import { MediaLinkItem } from '../../typings';
-import MediaLink from '../media-link/MediaLink';
+import { MediaLinkItem } from 'typings';
+import MediaLink from 'components/media-link/MediaLink';
 
 class MediaBlock extends Component {
   private readonly items: MediaLinkItem[] = [

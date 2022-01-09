@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import CodeBlock from '../windows/CodeBlock';
+import CodeBlock from 'components/windows/CodeBlock';
 
 const exampleCode = `app.Get("/", func (c *fiber.Ctx) error {
     return c.SendString("GET request")

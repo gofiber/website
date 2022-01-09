@@ -1,4 +1,4 @@
-@import '../../styles/colors';
+@import 'styles/colors';
 
 .codeWindowContent {
   pre {
@@ -11,16 +11,17 @@
       border-bottom-left-radius: 3px;
       border-bottom-right-radius: 3px;
       line-height: 1.2;
-      padding: .5em;
+      padding: 0.5em;
       overflow: auto;
       word-break: normal;
       white-space: pre;
       word-spacing: normal;
       padding-bottom: 15px;
       font-size: 14px;
-      color: #E6ECF1;
+      color: #e6ecf1;
       font-weight: 500 !important;
-      font-family: "Source Code Pro", Consolas, Menlo, Monaco, Courier, monospace !important;
+      font-family: 'Source Code Pro', Consolas, Menlo, Monaco, Courier,
+        monospace !important;
     }
   }
 }

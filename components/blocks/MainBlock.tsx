@@ -4,8 +4,8 @@ import { Component } from 'react';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import CodeBlock from '../windows/CodeBlock';
-import BrowserWindow from '../windows/BrowserWindow';
+import CodeBlock from 'components/windows/CodeBlock';
+import BrowserWindow from 'components/windows/BrowserWindow';
 
 const exampleCode = `package main
 

@@ -1,4 +1,4 @@
-import styles from '../components/blocks/MainBlock.module.scss';
+import styles from 'components/blocks/MainBlock.module.scss';
 import Head from 'next/head';
 import { Component } from 'react';
 
