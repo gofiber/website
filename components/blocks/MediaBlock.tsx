@@ -58,13 +58,6 @@ class MediaBlock extends Component {
       date: 'june 10, 2020',
     },
     {
-      url: 'https://vugt.me/the-road-to-web-based-authentication-with-fiber/',
-      website: 'vugt.me',
-      title: 'The road to web-based authentication with Fiber ⚡',
-      author: 'Thomas van Vugt',
-      date: 'May 20, 2020',
-    },
-    {
       url: 'https://dev.to/koddr/fiber-v1-9-5-how-to-improve-performance-by-817-and-stay-fast-flexible-and-friendly-2dp6',
       website: 'dev.to',
       title:
