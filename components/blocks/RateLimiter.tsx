@@ -5,6 +5,7 @@ const exampleCode = `package main
 
 import (
     "log"
+    "time"
 
     "github.com/gofiber/fiber/v2"
     "github.com/gofiber/fiber/v2/middleware/limiter"
@@ -15,7 +16,7 @@ func main() {
 
   // 3 requests per 10 seconds max
   app.Use(limiter.New(limiter.Config{
-      Timeout:  10,
+      Expiration: 10 * time.Second,
       Max:      3,
   }))
 
