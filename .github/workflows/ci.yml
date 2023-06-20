@@ -3,7 +3,7 @@ name: ContinuousIntegration
 on: [push]
 
 jobs:
-  build:
+  continuous-integration:
     runs-on: ubuntu-latest
 
     strategy:
