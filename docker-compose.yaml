@@ -1,0 +1,37 @@
+version: '3.8'
+services:
+  app:
+    build:
+      context: .
+      target: development
+    ports:
+      - "3000:3000"
+    environment:
+      NODE_ENV: development
+      # Consider adding:
+      WATCHPACK_POLLING: "true"  # Better hot reload support for Windows/WSL
+    volumes:
+      - .:/usr/src/app:delegated  # Add delegated for better performance
+      - /usr/src/app/node_modules
+    # Add healthcheck
+    healthcheck:
+      test: ["CMD", "wget", "--spider", "http://localhost:3000"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+
+  app-production:
+    build:
+      context: .
+      target: production
+    ports:
+      - "3001:3000"
+    environment:
+      NODE_ENV: production
+    # Add restart policy
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "--spider", "http://localhost:3000"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
