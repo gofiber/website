@@ -1,4 +1,4 @@
-@import '../../styles/mixins';
+@use '../../styles/mixins';
 
 .mainBlock {
   text-align: center;
@@ -38,7 +38,7 @@
   color: #74818d;
 }
 
-@include mobile-break {
+@include mixins.mobile-break {
   .mainBlock {
     padding: 2em 1em;
 

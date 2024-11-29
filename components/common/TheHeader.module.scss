@@ -1,5 +1,5 @@
-@import '../../styles/colors';
-@import '../../styles/mixins';
+@use '../../styles/colors';
+@use '../../styles/mixins';
 
 .header {
   padding: 1em;
@@ -25,7 +25,7 @@
       }
 
       &:hover {
-        background: $accent;
+        background: colors.$accent;
         color: #fff;
         text-decoration: none;
       }
@@ -51,7 +51,7 @@
     }
   }
 
-  @include mobile-break {
+  @include mixins.mobile-break {
     padding: 0;
 
     .headerMid {

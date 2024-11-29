@@ -1,8 +1,9 @@
 import styles from './BrowserWindow.module.scss';
-import { Component } from 'react';
+import {Component, ReactNode} from 'react';
 
 interface BrowserWindowProps {
   url: string;
+  children?: ReactNode;
 }
 
 class BrowserWindow extends Component<BrowserWindowProps> {

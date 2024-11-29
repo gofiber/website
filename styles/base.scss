@@ -1,10 +1,11 @@
+@use './colors';
+@use './variables';
+@use './mixins';
+@use './hljs';
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:500');
 
-@import './colors';
-@import './variables';
-@import './mixins';
-@import './hljs';
 
 html, body {
   width: 100%;
@@ -13,12 +14,12 @@ html, body {
 
 body {
   margin: 0;
-  color: $body-color;
+  color: colors.$body-color;
   font: 16px / 1.6 'Roboto', "Segoe UI", Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 
 a {
-  color: $accent;
+  color: colors.$accent;
   text-decoration: none;
 
   &:hover {
@@ -30,11 +31,11 @@ a {
   width: 1200px;
   margin: 0 auto;
 
-  @include mid-break {
-    width: $mobile-break;
+  @include mixins.mid-break {
+    width: variables.$mobile-break;
   }
 
-  @include mobile-break {
+  @include mixins.mobile-break {
     width: auto;
     padding: 1em;
   }
@@ -55,7 +56,7 @@ svg.svg-inline--fa {
   box-shadow: 0 6px 20px rgba(0,0,0,0.3);
 
   &.dark {
-    background: $accent;
+    background: colors.$accent;
   }
 
   .titlebar {
@@ -108,7 +109,7 @@ svg.svg-inline--fa {
 
   a {
     display: inline-block;
-    background: $accent;
+    background: colors.$accent;
     color: #fff;
     padding: 1em 4em;
     border-radius: 4px;
@@ -116,7 +117,7 @@ svg.svg-inline--fa {
 
     &:hover {
       text-decoration: none;
-      background: $accent-darker;
+      background: colors.$accent-darker;
     }
 
     span, svg {
@@ -140,7 +141,7 @@ svg.svg-inline--fa {
 
   &.blue {
     color: #fff;
-    background: $accent;
+    background: colors.$accent;
   }
 
   .mid {
@@ -165,7 +166,7 @@ svg.svg-inline--fa {
     font-size: 2.4em;
   }
 
-  @include mobile-break {
+  @include mixins.mobile-break {
     .mid {
       display: block;
 

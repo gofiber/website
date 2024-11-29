@@ -1,9 +1,15 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+# IDE
+.idea
+
 # dependencies
 /node_modules
 /.pnp
-.pnp.js
+.pnp.*
+package-lock.json
+.yarn
+.yarnrc.yml
 
 # testing
 /coverage

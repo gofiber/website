@@ -1,4 +1,4 @@
-@import '../../styles/colors';
+@use '../../styles/colors';
 
 .codeWindowContent {
   pre {
@@ -7,7 +7,7 @@
 
     code {
       display: block;
-      background: $accent;
+      background: colors.$accent;
       border-bottom-left-radius: 3px;
       border-bottom-right-radius: 3px;
       line-height: 1.2;

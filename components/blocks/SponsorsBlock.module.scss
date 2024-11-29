@@ -1,4 +1,4 @@
-@import '../../styles/mixins';
+@use '../../styles/mixins';
 
 .sponsorsBlock {
   .mid {
@@ -20,7 +20,7 @@
     img {
       height: 100px;
 
-      @include mobile-break {
+      @include mixins.mobile-break {
         height: auto;
       }
     }

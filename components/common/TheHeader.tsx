@@ -22,7 +22,7 @@ class TheHeader extends Component<{}, TheHeaderState> {
 
   private readonly links: GenericLink[] = [
     { url: 'https://docs.gofiber.io', text: '📖 Docs' },
-    { url: 'https://github.com/gofiber/recipes', text: '🍳 Examples' },
+    { url: 'https://github.com/gofiber/recipes', text: '🍳 Recipes' },
     { url: 'https://github.com/gofiber/fiber', text: '📝 GitHub' },
     { url: 'https://www.buymeacoffee.com/fenny', text: '☕ Buy a Coffee' },
     { url: '/discord', text: '💬 Discord' },

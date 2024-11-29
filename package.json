@@ -3,9 +3,9 @@
   "version": "1.0.1",
   "private": true,
   "scripts": {
-    "build": "next build && next export",
+    "build": "next build",
     "dev": "next dev",
-    "lint": "eslint . --ext .ts --ext .tsx",
+    "lint": "eslint .",
     "start": "next start"
   },
   "dependencies": {
@@ -17,18 +17,24 @@
     "next": "^15.0.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "sass": "^1.81.0"
+    "sass": "^1.81.0",
+    "sass-loader": "^16.0.3"
   },
   "devDependencies": {
+    "@eslint/compat": "^1.2.3",
+    "@eslint/js": "^9.15.0",
+    "@next/eslint-plugin-next": "^15.0.3",
+    "@stylistic/eslint-plugin": "^2.11.0",
     "@types/node": "^20.17.9",
     "@types/react": "^18.3.12",
-    "@typescript-eslint/eslint-plugin": "^8.16.0",
     "@typescript-eslint/parser": "^8.16.0",
     "eslint": "^9.15.0",
     "eslint-config-next": "^15.0.3",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.2.1",
     "prettier": "^3.4.1",
-    "typescript": "^5.7.2"
-  }
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.16.0"
+  },
+  "packageManager": "yarn@4.5.3"
 }

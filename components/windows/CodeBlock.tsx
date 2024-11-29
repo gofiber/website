@@ -1,11 +1,17 @@
 import styles from './CodeBlock.module.scss';
-import { Component } from 'react';
-import { findDOMNode } from 'react-dom';
+import React, { Component, createRef } from 'react';
 import hljs from 'highlight.js';
 
-class CodeBlock extends Component {
+interface CodeBlockProps {
+  children: React.ReactNode;
+}
+
+class CodeBlock extends Component<CodeBlockProps> {
+  codeRef = createRef<HTMLElement>();
   componentDidMount() {
-    hljs.highlightBlock(findDOMNode(this.refs.code));
+    if (this.codeRef.current) {
+      hljs.highlightBlock(this.codeRef.current);
+    }
   }
 
   render() {
@@ -22,7 +28,7 @@ class CodeBlock extends Component {
 
           <div className={`window-content ${styles.codeWindowContent}`}>
             <pre>
-              <code className="go" ref="code">
+              <code className="go" ref={this.codeRef}>
                 {this.props.children}
               </code>
             </pre>

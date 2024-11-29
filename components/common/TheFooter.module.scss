@@ -1,8 +1,8 @@
-@import '../../styles/colors';
+@use '../../styles/colors';
 
 .mainFooter {
   text-align: center;
-  background: $accent-darker;
+  background: colors.$accent-darker;
   padding: 2em 0.5em;
   font-size: 0.8em;
   color: #fff;

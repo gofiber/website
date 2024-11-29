@@ -1,4 +1,4 @@
-@import '../../styles/mixins';
+@use '../../styles/mixins';
 
 .mediaBlock {
   border-top: 3px solid #E6ECF1;
@@ -17,7 +17,7 @@
   width: 75%;
   margin: 0 auto;
 
-  @include mobile-break {
+  @include mixins.mobile-break {
     width: auto;
   }
 }
