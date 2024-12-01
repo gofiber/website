@@ -17,7 +17,7 @@ func main() {
   // 3 requests per 10 seconds max
   app.Use(limiter.New(limiter.Config{
       Expiration: 10 * time.Second,
-      Max:      3,
+      Max:        3,
   }))
 
   // ...
