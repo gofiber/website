@@ -799,7 +799,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:8.17.0":
+"@typescript-eslint/parser@npm:8.17.0, @typescript-eslint/parser@npm:^8.17.0":
   version: 8.17.0
   resolution: "@typescript-eslint/parser@npm:8.17.0"
   dependencies:
@@ -817,7 +817,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0, @typescript-eslint/parser@npm:^8.16.0":
+"@typescript-eslint/parser@npm:^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0":
   version: 8.16.0
   resolution: "@typescript-eslint/parser@npm:8.16.0"
   dependencies:
@@ -2125,7 +2125,7 @@ __metadata:
     "@stylistic/eslint-plugin": ^2.11.0
     "@types/node": ^20.17.9
     "@types/react": ^18.3.12
-    "@typescript-eslint/parser": ^8.16.0
+    "@typescript-eslint/parser": ^8.17.0
     eslint: ^9.16.0
     eslint-config-next: ^15.0.3
     eslint-config-prettier: ^9.1.0
