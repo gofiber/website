@@ -15,6 +15,7 @@ import MediaBlock from '../components/blocks/MediaBlock';
 import LastBlock from '../components/blocks/LastBlock';
 import SupportBlock from '../components/blocks/Support';
 import SponsorsBlock from '../components/blocks/SponsorsBlock';
+import InkeepChatButton from "../components/common/InkeepChatButton";
 
 class Home extends Component {
   render() {
@@ -39,6 +40,7 @@ class Home extends Component {
         <MediaBlock />
         <SponsorsBlock />
         <LastBlock />
+        <InkeepChatButton />
       </div>
     );
   }

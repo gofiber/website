@@ -11,11 +11,14 @@ jobs:
         uses: actions/checkout@v4
         with:
           persist-credentials: false
-
       - name: Build
         run: |
           yarn
           yarn build
+        env:
+          NEXT_PUBLIC_INKEEP_API_KEY: ${{ secrets.INKEEP_API_KEY }}
+          NEXT_PUBLIC_INKEEP_INTEGRATION_ID: ${{ secrets.INKEEP_INTEGRATION_ID }}
+          NEXT_PUBLIC_INKEEP_ORGANIZATION_ID: ${{ secrets.INKEEP_ORGANIZATION_ID }}
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
