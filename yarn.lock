@@ -1782,13 +1782,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^18.3.12":
-  version: 18.3.12
-  resolution: "@types/react@npm:18.3.12"
+"@types/react@npm:^18.3.13":
+  version: 18.3.13
+  resolution: "@types/react@npm:18.3.13"
   dependencies:
-    "@types/prop-types": "npm:*"
-    csstype: "npm:^3.0.2"
-  checksum: 8bae8d9a41619804561574792e29112b413044eb0d53746dde2b9720c1f9a59f71c895bbd7987cd8ce9500b00786e53bc032dced38cddf42910458e145675290
+    "@types/prop-types": "*"
+    csstype: ^3.0.2
+  checksum: 8/5ccf75e8e52e30fd619046ce985d17152fdf92da3b27777cdcbe972c4557bb0f0d7cfda6b379c29e409f4c3293ad1277394eea6c865211c07bd92cab8dcb277f
   languageName: node
   linkType: hard
 
@@ -4940,7 +4940,7 @@ __metadata:
     "@next/eslint-plugin-next": ^15.0.3
     "@stylistic/eslint-plugin": ^2.11.0
     "@types/node": ^20.17.9
-    "@types/react": ^18.3.12
+    "@types/react": ^18.3.13
     "@typescript-eslint/parser": ^8.17.0
     eslint: ^9.16.0
     eslint-config-next: ^15.0.3
