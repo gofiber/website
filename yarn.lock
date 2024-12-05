@@ -408,15 +408,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/compat@npm:^1.2.3":
-  version: 1.2.3
-  resolution: "@eslint/compat@npm:1.2.3"
+"@eslint/compat@npm:^1.2.4":
+  version: 1.2.4
+  resolution: "@eslint/compat@npm:1.2.4"
   peerDependencies:
     eslint: ^9.10.0
   peerDependenciesMeta:
     eslint:
       optional: true
-  checksum: b7439e62f73b9a05abea3b54ad8edc171e299171fc4673fc5a2c84d97a584bb9487a7f0bee397342f6574bd53597819a8abe52f1ca72184378cf387275b84e32
+  checksum: 8/d68b0e5d4f2890c86b439cd2e4c0f9c6e7eae09230a69cf80a0b647f7242ed5c662cc286a06d6eb06d95e3def62ed26e9e1eac494538d58b4e2cfc355d37c176
   languageName: node
   linkType: hard
 
@@ -4930,7 +4930,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "fiber-website@workspace:."
   dependencies:
-    "@eslint/compat": ^1.2.3
+    "@eslint/compat": ^1.2.4
     "@eslint/js": ^9.16.0
     "@fortawesome/fontawesome-svg-core": ^6.7.1
     "@fortawesome/free-brands-svg-icons": ^6.7.1
