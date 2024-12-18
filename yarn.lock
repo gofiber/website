@@ -939,12 +939,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/eslint-plugin-next@npm:15.1.0, @next/eslint-plugin-next@npm:^15.1.0":
+"@next/eslint-plugin-next@npm:15.1.0":
   version: 15.1.0
   resolution: "@next/eslint-plugin-next@npm:15.1.0"
   dependencies:
     fast-glob: "npm:3.3.1"
   checksum: 8/18fa23986383aee3d7b475822b30f8c4bfac0566ec2985c195ec860336cb5b7b93c3b5b9ab93034b4c1177161c4fbc9d23819e1b1fc932a170f217a48f8b8c6b
+  languageName: node
+  linkType: hard
+
+"@next/eslint-plugin-next@npm:^15.1.1":
+  version: 15.1.1
+  resolution: "@next/eslint-plugin-next@npm:15.1.1"
+  dependencies:
+    fast-glob: "npm:3.3.1"
+  checksum: 10c0/7f01fdd0cadd8e72cc29b3f3a9848445352447d6327bbb1332ec55e387603b9cb584527c227a7bab86925a4f0b9aa0416493799d786f42fb4e6aa910dd93e72d
   languageName: node
   linkType: hard
 
@@ -5065,7 +5074,7 @@ __metadata:
     "@fortawesome/free-solid-svg-icons": "npm:^6.7.1"
     "@fortawesome/react-fontawesome": "npm:^0.2.2"
     "@inkeep/uikit": "npm:^0.3.19"
-    "@next/eslint-plugin-next": "npm:^15.1.0"
+    "@next/eslint-plugin-next": "npm:^15.1.1"
     "@stylistic/eslint-plugin": "npm:^2.12.1"
     "@types/node": "npm:^20.17.9"
     "@types/react": "npm:^18.3.13"
