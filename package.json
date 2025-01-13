@@ -22,7 +22,7 @@
     "sass-loader": "^16.0.4"
   },
   "devDependencies": {
-    "@eslint/compat": "^1.2.4",
+    "@eslint/compat": "^1.2.5",
     "@eslint/js": "^9.17.0",
     "@next/eslint-plugin-next": "^15.1.4",
     "@stylistic/eslint-plugin": "^2.12.1",
