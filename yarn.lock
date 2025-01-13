@@ -1771,12 +1771,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^20.17.9":
-  version: 20.17.9
-  resolution: "@types/node@npm:20.17.9"
+"@types/node@npm:^22.10.5":
+  version: 22.10.5
+  resolution: "@types/node@npm:22.10.5"
   dependencies:
-    undici-types: "npm:~6.19.2"
-  checksum: 10c0/1c37c3618407d56b76301578edabcb4c6a7ef093d0811c50fc4df8df68fc546797a294cafac0e50789f4e0e485cd1d6871964d8e6222fd420658bdae89c1fb4a
+    undici-types: "npm:~6.20.0"
+  checksum: 10c0/6a0e7d1fe6a86ef6ee19c3c6af4c15542e61aea2f4cee655b6252efb356795f1f228bc8299921e82924e80ff8eca29b74d9dd0dd5cc1a90983f892f740b480df
   languageName: node
   linkType: hard
 
@@ -5070,7 +5070,7 @@ __metadata:
     "@inkeep/uikit": "npm:^0.3.19"
     "@next/eslint-plugin-next": "npm:^15.1.4"
     "@stylistic/eslint-plugin": "npm:^2.12.1"
-    "@types/node": "npm:^20.17.9"
+    "@types/node": "npm:^22.10.5"
     "@types/react": "npm:^18.3.13"
     "@typescript-eslint/parser": "npm:^8.19.1"
     eslint: "npm:^9.18.0"
@@ -8700,10 +8700,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"undici-types@npm:~6.19.2":
-  version: 6.19.8
-  resolution: "undici-types@npm:6.19.8"
-  checksum: 10c0/078afa5990fba110f6824823ace86073b4638f1d5112ee26e790155f481f2a868cc3e0615505b6f4282bdf74a3d8caad715fd809e870c2bb0704e3ea6082f344
+"undici-types@npm:~6.20.0":
+  version: 6.20.0
+  resolution: "undici-types@npm:6.20.0"
+  checksum: 10c0/68e659a98898d6a836a9a59e6adf14a5d799707f5ea629433e025ac90d239f75e408e2e5ff086afc3cace26f8b26ee52155293564593fbb4a2f666af57fc59bf
   languageName: node
   linkType: hard
 
