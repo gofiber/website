@@ -5136,7 +5136,7 @@ __metadata:
     prettier: "npm:^3.4.2"
     react: "npm:^18.3.1"
     react-dom: "npm:^18.3.1"
-    sass: "npm:^1.83.3"
+    sass: "npm:^1.83.4"
     sass-loader: "npm:^16.0.4"
     typescript: "npm:^5.7.3"
     typescript-eslint: "npm:^8.20.0"
@@ -8007,9 +8007,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:^1.83.3":
-  version: 1.83.3
-  resolution: "sass@npm:1.83.3"
+"sass@npm:^1.83.4":
+  version: 1.83.4
+  resolution: "sass@npm:1.83.4"
   dependencies:
     "@parcel/watcher": "npm:^2.4.1"
     chokidar: "npm:^4.0.0"
@@ -8020,7 +8020,7 @@ __metadata:
       optional: true
   bin:
     sass: sass.js
-  checksum: 10c0/36f98f64c217dce17030b4c0cc9917ca16edb03f430cf2d56ff8d27224198a608d15316aee76fc24d19418751043c2625447e9afc930be4e422cceccf6a099fa
+  checksum: 10c0/6f27f0eebfeb50222b14baaeef548ef58a05daf8abd9797e6c499334ed7ad40541767056c8693780d06ca83d8836348ea7396a923d3be439b133507993ca78be
   languageName: node
   linkType: hard
 
