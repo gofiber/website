@@ -873,9 +873,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@inkeep/uikit@npm:^0.3.19":
-  version: 0.3.19
-  resolution: "@inkeep/uikit@npm:0.3.19"
+"@inkeep/uikit@npm:^0.3.20":
+  version: 0.3.20
+  resolution: "@inkeep/uikit@npm:0.3.20"
   dependencies:
     "@apollo/client": "npm:^3.8.1"
     "@ark-ui/react": "npm:^0.15.0"
@@ -908,7 +908,7 @@ __metadata:
   peerDependencies:
     react: ^18.2.0
     react-dom: ^18.2.0
-  checksum: 10c0/0295161627293872fa46aa45a1672827a63c146fcc44867f1299ca44c8c400874b3a97e2324fa54240b4c043fe45b7f9561dcf6da72018b0d37df5e9bec30947
+  checksum: 10c0/aec503a380ead2b13b25838e1df412fa1a6cee008471c951a397c9396512bccc08a5c5ca0d5a3e0aa473c72b04e588fb36b84676a1d64b9d3ee552c7c4a7e197
   languageName: node
   linkType: hard
 
@@ -5205,7 +5205,7 @@ __metadata:
     "@fortawesome/free-brands-svg-icons": "npm:^6.7.2"
     "@fortawesome/free-solid-svg-icons": "npm:^6.7.2"
     "@fortawesome/react-fontawesome": "npm:^0.2.2"
-    "@inkeep/uikit": "npm:^0.3.19"
+    "@inkeep/uikit": "npm:^0.3.20"
     "@next/eslint-plugin-next": "npm:^15.1.7"
     "@stylistic/eslint-plugin": "npm:^4.2.0"
     "@types/node": "npm:^22.13.9"
