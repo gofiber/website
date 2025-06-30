@@ -7,6 +7,32 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:500');
 
 
+:root {
+  --accent: #183055;
+  --accent-darker: #142a4c;
+  --link-color: #183055;
+  --detail-color: #454545;
+  --border-color: #E6ECF1;
+  --body-color: #242a31;
+  --background: #ffffff;
+  --background-second: #F5F7F9;
+  --browser-window-bar-background: #f4f4f4;
+  --browser-window-content-background: #fff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --link-color: #88acd3;
+    --detail-color: #F5F7F9;
+    --body-color: #ffffff;
+    --border-color: #1b1b1d;
+    --background: #333333;
+    --background-second: #1b1b1d;
+    --browser-window-bar-background: #1b1b1d;
+    --browser-window-content-background: #333333;
+  }
+}
+
 html, body {
   width: 100%;
   height: 100%;
@@ -14,12 +40,13 @@ html, body {
 
 body {
   margin: 0;
+  background: var(--background);
   color: colors.$body-color;
   font: 16px / 1.6 'Roboto', "Segoe UI", Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 
 a {
-  color: colors.$accent;
+  color: var(--link-color);
   text-decoration: none;
 
   &:hover {
@@ -51,7 +78,7 @@ svg.svg-inline--fa {
 }
 
 .window {
-  background: #f4f4f4;
+  background: var(--browser-window-bar-background);
   border-radius: 3px;
   box-shadow: 0 6px 20px rgba(0,0,0,0.3);
 
@@ -101,9 +128,9 @@ svg.svg-inline--fa {
 }
 
 .emphasized-button {
-  background: #F5F7F9;
-  border-top: 1px solid #E6ECF1;
-  border-bottom: 1px solid #E6ECF1;
+  background: var(--background-second);
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
   padding: 3em 0;
   text-align: center;
 
@@ -134,9 +161,9 @@ svg.svg-inline--fa {
   padding: 3em 1em;
 
   &.faint {
-    background: #F5F7F9;
-    border-top: 1px solid #E6ECF1;
-    border-bottom: 1px solid #E6ECF1;
+    background: var(--background-second);
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
   }
 
   &.blue {

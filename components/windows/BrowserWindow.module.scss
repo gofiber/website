@@ -6,7 +6,7 @@
   padding: 0;
 
   .genericBrowserContent {
-    background: #fff;
+    background: var(--browser-window-content-background);
     padding: 8px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 14px;
@@ -24,7 +24,7 @@
 
 .urlBar {
   font-size: 13px;
-  background: #fff;
+  background: var(--browser-window-content-background);
   line-height: 1;
   padding: 5px;
   width: 50%;

@@ -41,11 +41,17 @@ class TheHeader extends Component<{}, TheHeaderState> {
         <div className={`mid ${styles.headerMid}`}>
           <div className={styles.headerLeft}>
             <a href="/">
-              <img
-                src="/assets/images/logo.svg"
-                alt="Fiber"
-                className={styles.logo}
-              />
+              <picture>
+                <source
+                  srcSet="/assets/images/logo-dark.svg"
+                  media="(prefers-color-scheme: dark)"
+                />
+                <img
+                  src="/assets/images/logo.svg"
+                  alt="Fiber"
+                  className={styles.logo}
+                />
+              </picture>
             </a>
           </div>
 
