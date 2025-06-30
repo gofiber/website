@@ -63,8 +63,8 @@
       }
 
       nav {
-        border-top: 1px solid #e6ecf1;
-        background: #f5f7f9;
+        border-top: 1px solid var(--border-color);
+        background: var(--background-second);
         display: none;
 
         &.opened {
@@ -74,7 +74,7 @@
         a {
           display: block;
           border-radius: 0;
-          border-bottom: 1px solid #e6ecf1;
+          border-bottom: 1px solid var(--border-color);
         }
       }
     }
