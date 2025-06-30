@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "@eslint/compat": "^1.2.7",
+    "@eslint/eslintrc": "^3.3.1",
     "@eslint/js": "^9.21.0",
     "@next/eslint-plugin-next": "^15.1.7",
     "@stylistic/eslint-plugin": "^4.2.0",
@@ -33,6 +34,7 @@
     "eslint-config-next": "^15.2.1",
     "eslint-config-prettier": "^10.1.5",
     "eslint-plugin-prettier": "^5.2.3",
+    "globals": "^16.2.0",
     "prettier": "^3.5.3",
     "typescript": "^5.8.2",
     "typescript-eslint": "^8.26.0"
