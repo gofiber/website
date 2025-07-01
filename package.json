@@ -29,7 +29,7 @@
     "@stylistic/eslint-plugin": "^4.2.0",
     "@types/node": "^22.13.9",
     "@types/react": "^18.3.23",
-    "@typescript-eslint/parser": "^8.21.0",
+    "@typescript-eslint/parser": "^8.35.1",
     "eslint": "^9.22.0",
     "eslint-config-next": "^15.2.1",
     "eslint-config-prettier": "^10.1.5",
