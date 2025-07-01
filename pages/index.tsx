@@ -38,7 +38,6 @@ class Home extends Component {
         <SupportBlock />
         <LanguagesBlock />
         <MediaBlock />
-        <SponsorsBlock />
         <LastBlock />
         <InkeepChatButton />
       </div>
