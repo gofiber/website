@@ -8,9 +8,45 @@ updates:
       - "🤖 Dependencies"
     schedule:
       interval: "daily"
+    groups:
+      lint-tools:
+        patterns:
+          - "eslint"
+          - "eslint-*"
+          - "@eslint/*"
+          - "@next/eslint-plugin-next"
+          - "@stylistic/eslint-plugin"
+          - "prettier"
+      types:
+        patterns:
+          - "typescript"
+          - "typescript-*"
+          - "@types/*"
+          - "@typescript-eslint*"
+      react-next:
+        patterns:
+          - "next"
+          - "react"
+          - "react-dom"
+      fontawesome:
+        patterns:
+          - "@fortawesome/*"
+      sass:
+        patterns:
+          - "sass"
+          - "sass-loader"
   - package-ecosystem: "github-actions"
     directory: "/"
     labels:
       - "🤖 Dependencies"
     schedule:
       interval: "daily"
+    groups:
+      actions:
+        patterns:
+          - "actions/*"
+      third-party-actions:
+        patterns:
+          - "*"
+        exclude-patterns:
+          - "actions/*"
