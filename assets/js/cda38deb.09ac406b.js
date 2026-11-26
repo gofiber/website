@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfiber_docs=self.webpackChunkfiber_docs||[]).push([["580"],{7195(e){e.exports=JSON.parse('{"name":"home-root","id":"default"}')}}]);
